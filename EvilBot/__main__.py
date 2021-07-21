@@ -64,36 +64,28 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`𝙷𝚎𝚕𝚕𝚘` `𝙼𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜` *O*
-`𝙸'𝚖 𝚑𝚎𝚛𝚎 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚖𝚊𝚗𝚊𝚐𝚎 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙𝚜! 𝙷𝚒𝚝` *📚𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜*   
+`𝙷𝙴𝙻𝙻𝙾`(https://telegra.ph/file/a9e4e42b473a2f9f0d2f0.jpg) `𝙰𝙼`*𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
+`𝙸'𝙼 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿𝚂! 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙷𝙸𝚃`*𝙷𝙴𝙻𝙿 𝙱𝚄𝚃𝚃𝙾𝙽✓*   
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐏𝐥𝐚𝐜𝐞😇", url="t.me/AugustoGroupManagement_bot?startgroup=true"),
+            text="𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="t.me/ladz_queenbot?startgroup=true"),
     ],
-     [
-        InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭💝", callback_data="evil_"),
-        InlineKeyboardButton(
-            text="𝐌𝐲 𝐖𝐞𝐛🌐", url=f"http://evilbotz.art.blog"
-        ),
-     ],
-     [  
-        InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🛠", url="https://t.me/EVIL_SUPPORT_CHAT"),
-        InlineKeyboardButton(text="𝐑𝐞𝐩𝐨🇮🇳", url="https://github.com/shrvan42/EvilBot"),
+    [  
+        InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/LAD_botzhub"),
+        InlineKeyboardButton(text="𝙼𝚈 𝙳𝙴𝚅", url="https://t.me/alavalaathy"),
     ], 
 
     [
-        InlineKeyboardButton(text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬❔", callback_data="help_back"),
+        InlineKeyboardButton(text="𝙷𝙴𝙻𝙿", callback_data="help_back"),
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝚎𝚢!.. 𝙸'𝚖`  *AUGUSTO*
-`𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @shrvan42 \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+`𝙷𝙴𝙻𝙻𝙾 𝙰𝙼`*𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
+`▬▭▬▭▬▭▬▭▬▭▬`
+`𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂`"""
+DONATE_STRING = """no money no problem 🍭"""
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -306,7 +298,7 @@ def evil_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_My licensed under the GNU General Public License v3.0_ 
-                      here is this [Repository](https://github.com/shrvan42/EvilBot) .""",
+                      here is this [Repository](https://github.com/teamLAD/holyladbot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -330,8 +322,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hey!.. I'm *Evil Robot*
-                 \nHere is the [Source Code](https://github.com/shrvan42/EvilBot) .""",
+            text=""" Hey!.. I'm *𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
+                 \nHere is the [Source Code](https://github.com/teamLAD/holyladbot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
