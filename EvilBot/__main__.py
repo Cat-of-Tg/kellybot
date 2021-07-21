@@ -64,8 +64,9 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`𝙷𝙴𝙻𝙻𝙾`(https://telegra.ph/file/a9e4e42b473a2f9f0d2f0.jpg) `𝙰𝙼`*𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
-`𝙸'𝙼 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿𝚂! 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙷𝙸𝚃`*𝙷𝙴𝙻𝙿 𝙱𝚄𝚃𝚃𝙾𝙽✓*   
+`𝙷𝙴𝙻𝙻𝙾` (https://telegra.ph/file/a9e4e42b473a2f9f0d2f0.jpg)  `𝙰𝙼` *𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
+`𝙸'𝙼 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿𝚂!`
+`𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙷𝙸𝚃` *𝙷𝙴𝙻𝙿 𝙱𝚄𝚃𝚃𝙾𝙽✓*   
 """
 buttons = [
     [
@@ -82,7 +83,7 @@ buttons = [
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝙴𝙻𝙻𝙾 𝙰𝙼`*𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
+`𝙷𝙴𝙻𝙻𝙾 𝙰𝙼` *𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
 `▬▭▬▭▬▭▬▭▬▭▬`
 `𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂`"""
 DONATE_STRING = """no money no problem 🍭"""
@@ -322,7 +323,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hey!.. I'm *𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
+            text=""" Hey!.. I'm  *𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
                  \nHere is the [Source Code](https://github.com/teamLAD/holyladbot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
