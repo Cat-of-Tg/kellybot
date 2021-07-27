@@ -83,7 +83,7 @@ buttons = [
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝙴𝙻𝙻𝙾 𝙰𝙼` *𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
+`𝙷𝙴𝙻𝙻𝙾 𝙰𝙼`[✅](https://telegra.ph/file/7407c4d2ae366cecbf41d.jpg) *𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
 `▬▭▬▭▬▭▬▭▬▭▬`
 `𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂`"""
 DONATE_STRING = """no money no problem 🍭"""
