@@ -74,7 +74,7 @@ buttons = [
             text="𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="t.me/ladz_queenbot?startgroup=true"),
     ],
     [  
-        InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/LAD_botzhub"),
+        InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ɢʀᴏᴜᴘ", url="https://t.me/teamladz_bothub"),
         InlineKeyboardButton(text="𝙼𝚈 𝙳𝙴𝚅", url="https://t.me/alavalaathy"),
     ], 
 
