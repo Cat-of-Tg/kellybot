@@ -657,7 +657,7 @@ __help__ = """
  ❍ /purge*:* deletes all messages between this and the replied to message.
  ❍ /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
 *Zombies:*
- ❍ /zombies*:* scan deleted accounts
+ ❍ /zombies*:* scan deleted accounts.
  ❍ /zombies clean*:* cleans deleted accounts
 
 *Note:* Night Mode chats get Automatically closed at 12 am(IST)
