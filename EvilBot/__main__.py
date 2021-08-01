@@ -74,16 +74,17 @@ buttons = [
             text="𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="t.me/ladz_queenbot?startgroup=true"),
     ],
     [  
-        InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ɢʀᴏᴜᴘ", url="https://t.me/teamladz_bothub"),
-        InlineKeyboardButton(text="𝙼𝚈 𝙳𝙴𝚅", url="https://t.me/alavalaathy"),
+        InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/teamladz_bothub"),
+        InlineKeyboardButton(text="𝙻𝙾𝙶𝚂", url="https://t.me/elna_logs"),
     ], 
 
     [
+        InlineKeyboardButton(text="𝙳𝙴𝚅", url="https://t.me/alavalaathy"), 
         InlineKeyboardButton(text="𝙷𝙴𝙻𝙿", callback_data="help_back"),
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝙴𝙻𝙻𝙾 𝙰𝙼`[✅](https://telegra.ph/file/7407c4d2ae366cecbf41d.jpg) *𝞝𝙇𝞟𝞐 𝞑𝞗𝞣*
+`𝙷𝙴𝙻𝙻𝙾 𝙰𝙼`[✅](https://telegra.ph/file/7407c4d2ae366cecbf41d.jpg) *𝞝𝙇𝞟𝞐*
 `▬▭▬▭▬▭▬▭▬▭▬`
 `𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂`"""
 DONATE_STRING = """no money no problem 🍭"""
